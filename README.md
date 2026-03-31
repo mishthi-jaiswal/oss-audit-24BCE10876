@@ -1,27 +1,26 @@
-# oss-audit-24BCE10876
-This project demonstrates key concepts of open-source software using practical shell scripting on a Linux system. 
+
 # oss-audit-24BCE10876
 
 ## Student Details
 **Name:** Mishthi Jaiswal  
 **Roll Number:** 24BCE10876  
-**Chosen Software:** Python  
+**Software:** Python  
 
 ## Project Description
-This project demonstrates key concepts of open-source software using practical shell scripting on a Linux system. It includes five shell scripts that explore system information, package inspection, disk auditing, log analysis, and a creative manifesto generator, showcasing the practical use of Linux commands and automation.
+This project demonstrates key concepts of open-source software using practical shell scripting on a Linux system. 
 
 ---
 
 ## Scripts Description
 
 ### Script 1 — System Identity Report
-- Displays Linux distribution, kernel version, current user, home directory, system uptime, and date/time.  
+- Displays Linux distribution, kernel version, current user, home directory, system uptime date/time.  
 - Shows which open-source license covers the OS.  
 - **Concepts used:** variables, echo, command substitution, output formatting.
 
-### Script 2 — FOSS Package Inspector
+### Script 2 —FOSS Package Inspector
 - Checks whether Python is installed and displays its version, maintainer, and description.  
-- Uses a case statement to print a short philosophy note about the package.  
+- Uses a case statement to print a short philosophy note about  package.  
 - **Concepts used:** if-else, case, dpkg, grep.
 
 ### Script 3 — Disk and Permission Auditor
@@ -35,7 +34,7 @@ This project demonstrates key concepts of open-source software using practical s
 - **Concepts used:** while-read loop, if-then, counter variables, command-line arguments.
 
 ### Script 5 — Open Source Manifesto Generator
-- Generates a personalized open-source philosophy statement by asking three interactive questions.  
+- Generates a open-source philosophy statement by asking three interactive questions.  
 - Saves the output to a `.txt` file.  
 - **Concepts used:** read for user input, string concatenation, output redirection, date command.
 
